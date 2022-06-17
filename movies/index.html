@@ -1,0 +1,73 @@
+<!--
+<html>
+<head>
+  </head>
+<body>
+  <div class='video'>
+  <script src="https://use.fontawesome.com/20603b964f.js"></script>
+<script type="text/javascript" src="https://content.jwplatform.com/libraries/LJ361JYj.js"></script>
+		<script type="text/javascript">jwplayer.key = 'ypdL3Acgwp4Uh2/LDE9dYh3W/EPwDMuA2yid4ytssfI=';</script><div id="myElement"></div><script type="text/javascript">
+					    jwplayer("myElement").setup({
+								image: "https://content.jwplatform.com/thumbs/xJ7Wcodt-720.jpg",
+					    		aspectratio: "16:9",
+								width: '100%',
+								aspectratio: '16:9',
+					    		autostart: false,
+				file : 'https://s154.vidboo.org/6jmnxxswreazsalriwlabyfrkgjigtcijayzrt43flboar6lz7id5zv72ysa/v.mp4',
+				abouttext: 'FILMKACA',
+				aboutlink: 'http://filmkaca.xyz',
+				tracks:[{"file":"<?php echo $cc; ?>","label":"Indonesia","kind":"captions","default":"true"}],
+				captions: {color: '#ffb800',fontSize: 30,backgroundOpacity: 0},
+				sharing: {
+					sites: ['facebook','twitter','tumblr','googleplus',{icon: '//support-static.jwplayer.com/images/awesome.svg', src: 'http://www.jwplayer.com/?', label:'jwplayer'}],
+					code: encodeURI("<iframe src='<?php echo $sharing;?>' width='480' height='320'></iframe>"),
+					link: "<?php echo $sharing;?>"
+						}
+						    })
+					</script>
+  </div>
+  </body>
+</html>
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Getting Clients IP</title>
+	
+	<style>
+	h1 {
+		color: green;
+	}
+	</style>
+	<script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+	</script>
+	
+	<script>
+	
+	// Add "https://ipinfo.io" statement
+	// this will communicate with the ipify servers
+	// in order to retrieve the IP address
+	$.get("https://ipinfo.io", function(response) {
+			document.f.c.value=response.ip;
+		}, "json")
+		
+		// "json" shows that data will be fetched in json format
+	</script>
+</head>
+
+<body>
+	<form name="f">
+		<input  style='visibility: hidden;' type="text" name="c">	
+	</form>
+	
+</body>
+
+</html>
+
+
+
+
+
+
